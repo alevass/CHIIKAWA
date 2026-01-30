@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Choco";
+    src: url('Chococooky.ttf') format('truetype'),
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Choco', sans-serif;
+}
+h1 {
+
+    font-size: 15px; 
+    margin-top: 25px;
+    margin-right: 270px;
+    flex: 1; 
+    display: flex;
+    justify-content: center;       
+
+   
+}
+
+header {
+  
+    font-family: 'Choco', sans-serif;
+    background-color: #eb97ba;
+    height: 70px;  
+    display: flex;
+}
+
+.mini {
+    
+    margin-top:7px;
+    margin-bottom: 8px;
+}   
+.logo {
+
+    
+    margin: 0 auto ;
+    margin-top: 20px ;
+    height: 35px;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.bouton_haut{
+
+  font-weight: bold;
+  font-family: 'Choco', sans-serif;
+  background-color: #f3d5df; 
+  border-color: #1a1215;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-self: end;
+
+
+}
+
+.carousel_modif {
+
+    max-width: 800px;
+
+
+}
+
+.side-image {
+    position: fixed;
+    top: 50%;
+    left: 0;           
+    transform: translateY(-50%);
+    width: 150px;
+    z-index: 1000;
+}
+
+.logo2{
+  height: 50px;
+  padding-right: 25px   ;
+}
+
+
+
+footer {
+  
+    font-family: 'Choco', sans-serif;
+    background-color: #eb97ba;
+    height: 60px;  
+    
+    
+}
+
+.personnage {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding:50px
+
+}
+
+.personnage img {
+
+    width: 120px;
+    border-radius: 100px;
+    border: 3px solid #272727;
+    object-fit: cover;     
+
+       
+
+}
+
+h2
+{
+ margin: 10px;
+ font-weight:bold;
+ font-size: 20px; 
+ 
+}
+
+
+iframe {
+    
+    
+    margin: 50px auto 0 auto;
+    padding:10px;
+
+}
